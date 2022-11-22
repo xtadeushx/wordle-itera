@@ -24,5 +24,4 @@ const Keyboard = ({ onBackspace, onPressed }) => {
     </div>
   );
 };
-
 export default Keyboard;

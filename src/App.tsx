@@ -1,15 +1,14 @@
-import { useState } from 'react'
-import './App.css'
-import Keyboard from './game/Keyboard'
+import { useState } from "react";
+import "./App.css";
+import Field from "./game/Field";
+import Keyboard from "./game/Keyboard";
 
 function App() {
-
   return (
     <div className="App">
-      <span> Hello</span>
-      <Keyboard />
+      <Field />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
